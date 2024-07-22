@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Youtube.com clone</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header class = 'header'>
+    <div class = 'left-section'>
+        <img src="https://supersimple.dev/public/img/exercises/youtube/icons/hamburger-menu.svg" class="hamberger-menu">
+      <img src="https://supersimple.dev/public/img/exercises/youtube/icons/youtube-logo.svg" class='youtube-logo'>
+    </div>
+    <div class="middle-section">
+      <input class='search-bar'type = 'text' placeholder="Search">
+      <button class='search-button'>
+        <img class='search-icon' src='https://supersimple.dev/public/img/exercises/youtube/icons/search.svg'>
+        <div class="tool-tip">Search</div>
+      </button>
+      <!--put position absolute inside a position relative-->
+      <button class='voice-search-button'>
+        <img class = 'voice-search-icon' src='https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg'>
+        <div class="tool-tip">Search with your voice</div>
+
+      </button>
+    </div>
+    <div class = 'right-section'>
+      <div class= 'upload-icon-container'>
+        <img class='upload-icon' src='https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg'>
+        <div class = "tool-tip">Create</div>
+      </div>
+      <div class = 'notifications-icon-container'>
+        <img class='notifications-icon'src='https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg'>
+        <div class='notifications-tooltip'>Notifications</div>
+        <div class="notifications-count">3</div>
+      </div>
+      <img class = 'current-user-picture'src='https://yt3.ggpht.com/ytc/AIdro_mLKPfQfsYtfUyqqe6FpMayQRafZoRgOUnqIFjEi-enSreCJmiWcdakwZy3g21qd24UHw=s88-c-k-c0x00ffffff-no-rj'>
+    </div> 
+  </header>
+  <nav class = 'sidebar'>
+    <div class = 'sidebar-link'>
+      <img src="https://supersimple.dev/public/img/exercises/youtube/icons/home.svg">
+      <div>Home</div>
+    </div>
+    <div class = 'sidebar-link'>
+      <img src="https://supersimple.dev/public/img/exercises/youtube/icons/explore.svg">
+      <div>Explore</div>
+    </div>
+    <div class = 'sidebar-link'>
+      <img src="https://supersimple.dev/public/img/exercises/youtube/icons/subscriptions.svg">
+      <div>Subscriptions</div>
+    </div>
+    <div class = 'sidebar-link'>
+      <img src="https://supersimple.dev/public/img/exercises/youtube/icons/library.svg">
+      <div>You</div>
+    </div>
+  </nav>
+  <main>
+    <section class='video-grid'>
+      <div class= 'video-previewtharun'>
+        <div class="thumbnail-row">
+          <img class = 'thumbnailtharun' src = "https://i.ytimg.com/vi/n7Tytq0lQb4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ_ZGVEKgg0BjR3gpma4XiDbXjLA">
+          <div class = 'video-time'>14:37</div>
+        </div>
+        <div class = 'video-info-grid'>
+          <div  class = 'channel-picture'>
+            <img  class = 'profile-picture' src='https://yt3.googleusercontent.com/ytc/AIdro_l_j492nkzqD1_nA9DqHl-r4L5pe9AI_jzhy9BX-af45JI=s160-c-k-c0x00ffffff-no-rj'>
+          </div>
+          <div class='video-info'>
+            <p class= 'video-titletharun'>
+              15 Years of *Study Advice* in 15 mins
+            </p>
+            <p class="video-authortharun">
+              Tharun Speaks &#10003;
+            </p>
+            <p class="video-viewstharun">
+              493K views &#183; 2 months ago
+            </p>
+          </div>  
+        </div>
+      </div>
+      <div class= 'video-previewtharun'>
+        <div class = 'thumbnail-row'>
+           <img class = 'thumbnailtharun' src = 'https://i.ytimg.com/vi/tNm_NNSB3_w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCIpCS9q4cfEhGWjTS_HmadI9mRsQ'>
+          <div class = 'video-time'>1:22:06</div>
+
+        </div>
+        <div class = 'video-info-grid'>
+          <div class='channel-picture'>
+            <img class='profile-picture'src='https://yt3.googleusercontent.com/ytc/AIdro_mdPFTT7VuJHQkvzW9gjJxvSV3bBDpEVNw8dWOmHjTT5g=s176-c-k-c0x00ffffff-no-rj-mo'>
+          </div>
+          <div class='video-info'>
+            <p class= video-titletharun>
+              Solve any Pattern Question - Trick Explained
+            </p>
+            <p class="video-authortharun">
+              take u forward &#10003;
+            </p>
+            <p class="video-viewstharun">
+              844K views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class= 'video-previewtharun'>
+        <div class="thumbnail-row">
+          <img class = 'thumbnailtharun' src ='https://i.ytimg.com/vi/C2QoDC1rka8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLANeRLLwoDQhA0LrhPoLi8OvETOHw'>
+          <div class = 'video-time'>15:26</div>
+        </div>
+        <div class = 'video-info-grid'>
+          <div  class = 'channel-picture'>
+            <img  class = 'profile-picture' src='https://yt3.ggpht.com/00yIYVKjmFvR7sFZXmP5aMq1u0P7ZcLfnDW27A7zRD1hTqcWLwYn0-o_5rGkK2eKfCf43ueE7Q=s176-c-k-c0x00ffffff-no-rj-mo'>
+
+          </div>
+          <div class='video-info'>
+            <p class= 'video-titletharun'>
+              What should you do in 2nd year of college? 2nd Year Roadmap
+            </p>
+            <p class="video-authortharun">
+              Apna College &#10003;
+            </p>
+            <p class="video-viewstharun">
+              536K views &#183; 1 year ago
+            </p>
+          </div>  
+        </div>
+      </div>
+      <div class= 'video-previewtharun'>
+        <div class = 'thumbnail-row'>
+           <img class = 'thumbnailtharun' src = 'https://i.ytimg.com/vi/ZniDyolzrBw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDQujmxeNW-Bep8OdO1YzBUZfPftw'>
+          <div class = 'video-time'>7:51</div>
+
+        </div>
+        <div class = 'video-info-grid'>
+          <div class='channel-picture'>
+            <img class='profile-picture'src='https://yt3.ggpht.com/3SgZOlTEAvVcM9oOejNscnloM-1RfcEEYZwKjQ-WUbM6NDItxjYgOTMwrge4eAPCOefWH7eoUw=s176-c-k-c0x00ffffff-no-rj-mo'>
+          </div>
+          <div class='video-info'>
+            <p class= video-titletharun>
+              Data Types vs. Abstract Data Types
+            </p>
+            <p class="video-authortharun">
+              Neso Academy &#10003;
+            </p>
+            <p class="video-viewstharun">
+              598K views &#183; 4 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class= 'video-previewtharun'>
+        <div class="thumbnail-row">
+          <img class = 'thumbnailtharun' src = 'https://i.ytimg.com/vi/0IAPZzGSbME/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCkn4rjuAi0fGBn9BOOcuD1pv2shg'>
+          <div class = 'video-time'>11:49</div>
+
+        </div>
+        <div class = 'video-info-grid'>
+          <div  class = 'channel-picture'>
+            <img  class = 'profile-picture' src='https://yt3.googleusercontent.com/ytc/AIdro_mp0uj33BBfZ18_r1ZZxHHXMrfCvrVUzMmhe8tj7BAqlQ=s160-c-k-c0x00ffffff-no-rj'>
+          </div>
+          <div class='video-info'>
+            <p class= 'video-titletharun'>
+              Introduction to Algorithms
+            </p>
+            <p class="video-authortharun">
+              Abdul Bari &#10003;
+            </p>
+            <p class="video-viewstharun">
+              4.8M views &#183; 6 years ago
+            </p>
+          </div>  
+        </div>
+      </div>
+      <div class= 'video-previewtharun'>
+        <div class = 'thumbnail-row'>
+           <img class = 'thumbnailtharun' src = 'https://i.ytimg.com/vi/T83_16zCOxw/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCWmWQQwxFxNi_ogshkolgAk2bxNg'>
+          <div class = 'video-time'>6:48</div>
+
+        </div>
+        <div class = 'video-info-grid'>
+          <div class='channel-picture'>
+            <img class='profile-picture'src='https://yt3.googleusercontent.com/ytc/AIdro_k7Wh_Z0l2Eul57pMxHR3LT-PH2Uo4yL0eg1TQKPjknfb4=s176-c-k-c0x00ffffff-no-rj-mo'>
+          </div>
+          <div class='video-info'>
+            <p class= video-titletharun>
+              SVECW AT A GLANCE || SHRI VISHNU ENGINEERING COLLEGE FOR WOMEN || SVES BHIMAVARAM
+            </p>
+            <p class="video-authortharun">
+               Vishnu Society
+            </p>
+            <p class="video-viewstharun">
+              38K views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class= 'video-previewtharun'>
+        <div class="thumbnail-row">
+          <img class = 'thumbnailtharun' src = "https://i.ytimg.com/vi/n7Tytq0lQb4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ_ZGVEKgg0BjR3gpma4XiDbXjLA">
+          <div class = 'video-time'>14:37</div>
+        </div>
+        <div class = 'video-info-grid'>
+          <div  class = 'channel-picture'>
+            <img  class = 'profile-picture' src='https://yt3.googleusercontent.com/ytc/AIdro_l_j492nkzqD1_nA9DqHl-r4L5pe9AI_jzhy9BX-af45JI=s160-c-k-c0x00ffffff-no-rj'>
+          </div>
+          <div class='video-info'>
+            <p class= 'video-titletharun'>
+              15 Years of *Study Advice* in 15 mins
+            </p>
+            <p class="video-authortharun">
+              Tharun Speaks &#10003;
+            </p>
+            <p class="video-viewstharun">
+              493K views &#183; 2 months ago
+            </p>
+          </div>  
+        </div>
+      </div>
+      <div class= 'video-previewtharun'>
+        <div class="thumbnail-row">
+          <img class = 'thumbnailtharun' src = "https://i.ytimg.com/vi/n7Tytq0lQb4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ_ZGVEKgg0BjR3gpma4XiDbXjLA">
+          <div class = 'video-time'>14:37</div>
+        </div>
+        <div class = 'video-info-grid'>
+          <div  class = 'channel-picture'>
+            <img  class = 'profile-picture' src='https://yt3.googleusercontent.com/ytc/AIdro_l_j492nkzqD1_nA9DqHl-r4L5pe9AI_jzhy9BX-af45JI=s160-c-k-c0x00ffffff-no-rj'>
+          </div>
+          <div class='video-info'>
+            <p class= 'video-titletharun'>
+              15 Years of *Study Advice* in 15 mins
+            </p>
+            <p class="video-authortharun">
+              Tharun Speaks &#10003;
+            </p>
+            <p class="video-viewstharun">
+              493K views &#183; 2 months ago
+            </p>
+          </div>  
+        </div>
+      </div>
+      <div class= 'video-previewtharun'>
+        <div class="thumbnail-row">
+          <img class = 'thumbnailtharun' src = "https://i.ytimg.com/vi/n7Tytq0lQb4/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJ_ZGVEKgg0BjR3gpma4XiDbXjLA">
+          <div class = 'video-time'>14:37</div>
+        </div>
+        <div class = 'video-info-grid'>
+          <div  class = 'channel-picture'>
+            <img  class = 'profile-picture' src='https://yt3.googleusercontent.com/ytc/AIdro_l_j492nkzqD1_nA9DqHl-r4L5pe9AI_jzhy9BX-af45JI=s160-c-k-c0x00ffffff-no-rj'>
+          </div>
+          <div class='video-info'>
+            <p class= 'video-titletharun'>
+              15 Years of *Study Advice* in 15 mins
+            </p>
+            <p class="video-authortharun">
+              Tharun Speaks &#10003;
+            </p>
+            <p class="video-viewstharun">
+              493K views &#183; 2 months ago
+            </p>
+          </div>  
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  
+   
+  <script src="script.js"></script>
+</body>
+  
+</html>
