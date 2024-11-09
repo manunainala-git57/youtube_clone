@@ -10,7 +10,7 @@ Welcome to my **YouTube Clone** project! This is a simplified, responsive replic
 
 ## Screenshots
 
-![YouTube Clone]("Screenshot 2024-11-09 221257.png")
+![Screenshot 2024-11-09 225313](https://github.com/user-attachments/assets/9990d584-9a92-40e0-b050-20dace9c2225)
 
 ## Technologies Used
 
