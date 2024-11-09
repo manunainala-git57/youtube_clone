@@ -10,7 +10,7 @@ Welcome to my **YouTube Clone** project! This is a simplified, responsive replic
 
 ## Screenshots
 
-![YouTube Clone](C:\Users\manun\OneDrive\Pictures\Screenshots)
+![YouTube Clone]("C:\Users\manun\OneDrive\Pictures\Screenshots")
 
 ## Technologies Used
 
