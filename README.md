@@ -21,4 +21,4 @@ Welcome to my **YouTube Clone** project! This is a simplified, responsive replic
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/youtube-clone.git
+   https://github.com/manunainala-git57/youtube_clone.git
